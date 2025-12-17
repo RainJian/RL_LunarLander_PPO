@@ -72,7 +72,7 @@ pip install "gymnasium[box2d]" stable-baselines3 tensorboard shimmy
 
 #### 1.平均奖励 (rollout/ep_rew_mean):
 
-*   **趋势:** 曲线从初始的 -200（频繁坠毁）一路上升，最终稳定在 +200 左右。
+*   **趋势:** 曲线从初始的 -200（频繁坠毁）一路上升，最终>0。
 *   **意义:** 证明 Agent 成功学会了“反重力悬停”和“定点着陆”策略。
 
 ![Episode Length Evolution](images/ep_len_mean.png)
@@ -101,6 +101,7 @@ pip install "gymnasium[box2d]" stable-baselines3 tensorboard shimmy
 ```
 
 Run under Linux (WSL) | Powered by Stable-Baselines3
+
 
 
 
