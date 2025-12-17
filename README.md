@@ -1,12 +1,10 @@
 # 🚀 PPO Reinforcement Learning for LunarLander-v3
 
-> **Task for New Undergraduate Student - RL Track**
->
 > An intelligent agent trained to land a spacecraft safely on the moon using **Proximal Policy Optimization (PPO)**.
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue) ![Framework](https://img.shields.io/badge/Framework-Stable--Baselines3-green) ![Environment](https://img.shields.io/badge/Environment-Gymnasium-orange) ![OS](https://img.shields.io/badge/OS-Linux%20(WSL)-yellow)
 
-## 📖 Introduction (项目简介)
+## 📖 项目简介
 
 此项目旨在利用深度强化学习（Deep Reinforcement Learning）解决经典的 **LunarLander-v3** 控制问题。通过使用 **Stable-Baselines3** 库中的 **PPO** 算法，智能体（Agent）学会了在离散动作空间下控制主引擎和侧引擎，实现克服月球重力并平稳着陆。
 
@@ -14,7 +12,7 @@
 
 ---
 
-## 🎥 Demo (效果展示)
+## 🎥 效果展示
 
 <!-- [请在此处放入你的效果图 GIF 或 截图] -->
 <!-- 建议放一张训练好的 Agent 完美着陆的 GIF -->
@@ -22,7 +20,7 @@
 
 ---
 
-## 🛠️ Environment & Algorithm (环境与算法)
+## 🛠️ 环境与算法
 
 ### The Environment: LunarLander-v3
 *   **Goal**: Move from the top of the screen to the landing pad (between two yellow flags) at coordinates (0,0).
@@ -41,7 +39,7 @@
 
 ---
 
-## ⚡ Installation (安装指南)
+## ⚡ 安装指南
 
 本项目在 **WSL (Ubuntu 22.04)** 下开发，依赖 `swig` 和 `box2d`。
 
