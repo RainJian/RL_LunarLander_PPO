@@ -1,5 +1,7 @@
 # 🚀 PPO Reinforcement Learning for LunarLander-v3
 
+![Lunar Lander](images/lunar_lander.gif)
+
 > An intelligent agent trained to land a spacecraft safely on the moon using **Proximal Policy Optimization (PPO)**.
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue) ![Framework](https://img.shields.io/badge/Framework-Stable--Baselines3-green) ![Environment](https://img.shields.io/badge/Environment-Gymnasium-orange) ![OS](https://img.shields.io/badge/OS-Linux%20(WSL)-yellow)
@@ -99,6 +101,7 @@ pip install "gymnasium[box2d]" stable-baselines3 tensorboard shimmy
 ```
 
 Run under Linux (WSL) | Powered by Stable-Baselines3
+
 
 
 
