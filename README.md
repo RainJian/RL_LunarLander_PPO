@@ -86,9 +86,11 @@ pip install "gymnasium[box2d]" stable-baselines3 tensorboard shimmy
 .
 ├── logs/                   # TensorBoard logs
 ├── models/                 # Saved PPO models (.zip)
+├── images/                 # Saved some images
 ├── train.py                # Main training script
 ├── README.md               # Project documentation
 └── .gitignore
 ```
 
 Run under Linux (WSL) | Powered by Stable-Baselines3
+
