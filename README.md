@@ -60,21 +60,23 @@ pip install "gymnasium[box2d]" stable-baselines3 tensorboard shimmy
 
 ## 📊 结果分析
 
-![Training Reward Convergence](images/ep_rew_mean.png)
-![Episode Length Evolution](images/ep_len_mean.png)
-![Value Network Loss](images/value_loss.png)
-
 ### Key Metrics Analysis (关键指标解读)
+
+![Training Reward Convergence](images/ep_rew_mean.png)
 
 #### 1.Mean Reward (rollout/ep_rew_mean):
 
 *   **趋势:** 曲线从初始的 -200（频繁坠毁）一路上升，最终稳定在 +200 左右。
 *   **意义:** 证明 Agent 成功学会了“反重力悬停”和“定点着陆”策略。
 
+![Episode Length Evolution](images/ep_len_mean.png)
+
 #### 2.Episode Length (rollout/ep_len_mean):
 
 *   **趋势:** 回合长度从 100 增加到 600。
 *   **意义:** 初始阶段 Agent 快速坠毁（时间短）；后期 Agent 学会了空中姿态调整和缓慢下降（控制过程变长），这是学会控制的特征。
+
+![Value Network Loss](images/value_loss.png)
 
 #### 3.Value Loss (train/value_loss):
 
@@ -93,5 +95,6 @@ pip install "gymnasium[box2d]" stable-baselines3 tensorboard shimmy
 ```
 
 Run under Linux (WSL) | Powered by Stable-Baselines3
+
 
 
