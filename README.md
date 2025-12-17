@@ -14,9 +14,11 @@
 
 ## 🎥 效果展示
 
-<!-- [请在此处放入你的效果图 GIF 或 截图] -->
-<!-- 建议放一张训练好的 Agent 完美着陆的 GIF -->
-![Agent Demo](Please_Put_Your_Gif_Here.gif)
+![Training Reward Convergence](images/ep_rew_mean.png)
+![Episode Length Evolution](images/ep_len_mean.png)
+![Value Network Loss](images/value_loss.png)
+![Explained Variance](images/explained_variance.png)
+![Entropy Loss](images/entropy_loss.png)
 
 ---
 
@@ -57,12 +59,10 @@ pip install "gymnasium[box2d]" stable-baselines3 tensorboard shimmy
 ``` 
 
 ## 📊 结果分析
-<!-- [请在此处放入 TensorBoard 的 Reward 曲线截图] -->
 
-<!-- 截图文件名建议为 reward_curve.png -->
-
-
-![alt text](reward_curve.png)
+![Training Reward Convergence](images/ep_rew_mean.png)
+![Episode Length Evolution](images/ep_len_mean.png)
+![Value Network Loss](images/value_loss.png)
 
 ### Key Metrics Analysis (关键指标解读)
 
@@ -93,4 +93,5 @@ pip install "gymnasium[box2d]" stable-baselines3 tensorboard shimmy
 ```
 
 Run under Linux (WSL) | Powered by Stable-Baselines3
+
 
