@@ -1,7 +1,5 @@
 venv/
 __pycache__/
-*.zip
-logs/
 .idea/
 .workbuddy/
 output/
